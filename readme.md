@@ -1,8 +1,6 @@
-# Metalsmith Scaffold v0.1.0
+# MTG Finder
 
-Base scaffold / Node.js app for generating static sites for new Linux environment.
-
-This application will eventually be generated via a Yeoman Generator and is subject to change.
+A Card Finder app like the Gatherer made with the MTGSDK from magicthegathering.io
 
 ## Local dependencies
 - Node 8
