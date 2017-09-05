@@ -1,0 +1,7 @@
+node_modules
+public
+.DS_Store
+npm-debug.log
+src/css/main.min.css
+src/js/main.min.js
+serverblock

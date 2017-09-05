@@ -1,0 +1,45 @@
+{
+  "name": "metalsmith-scaffold",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp development --gulpfile ./lib/gulpfile.js --cwd ./ ",
+    "staging": "gulp staging --gulpfile ./lib/gulpfile.js --cwd ./",
+    "production": "gulp production --gulpfile ./lib/gulpfile.js --cwd ./",
+    "test": "mocha"
+  },
+  "author": "John Foderaro",
+  "dependencies": {
+    "babel-plugin-resolver": "^1.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "handlebars": "^4.0.10",
+    "metalsmith": "^2.3.0",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-layouts": "^1.8.1",
+    "metalsmith-mapsite": "^1.0.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metadata": "0.0.4",
+    "metalsmith-move-up": "^1.0.0",
+    "metalsmith-sitemap": "^1.2.0",
+    "mocha": "^3.5.0",
+    "mtgsdk": "^0.3.0",
+    "normalize-scss": "^7.0.0",
+    "uglifyify": "^4.0.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
